@@ -198,10 +198,17 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .story--chinchin h3 { color: #131313; }
 .story--chinchin p { color: rgba(19, 19, 19, .75); }
 
+.story--juicedudes {
+  background: #000;
+  border-color: #000;
+}
 .story--juicedudes .story__logo {
   height: 56px;
   border-radius: 8px;
 }
+.story--juicedudes .story__metric { color: #fff; }
+.story--juicedudes h3 { color: #fff; }
+.story--juicedudes p { color: rgba(255, 255, 255, .75); }
 
 .testimonials {
   display: grid;
