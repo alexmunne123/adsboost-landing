@@ -198,17 +198,24 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .story--chinchin h3 { color: #131313; }
 .story--chinchin p { color: rgba(19, 19, 19, .75); }
 
-.story--juicedudes {
+.story--dark {
   background: #000;
   border-color: #000;
 }
+.story--dark .story__metric { color: #fff; }
+.story--dark h3 { color: #fff; }
+.story--dark p { color: rgba(255, 255, 255, .75); }
+
 .story--juicedudes .story__logo {
   height: 98px;
   border-radius: 8px;
 }
-.story--juicedudes .story__metric { color: #fff; }
-.story--juicedudes h3 { color: #fff; }
-.story--juicedudes p { color: rgba(255, 255, 255, .75); }
+
+.story__logo--wide {
+  height: 28px;
+  width: auto;
+  max-width: 100%;
+}
 
 .testimonials {
   display: grid;
