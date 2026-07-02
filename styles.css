@@ -190,6 +190,14 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .story--kevabro h3 { color: #fff; }
 .story--kevabro p { color: rgba(255, 255, 255, .85); }
 
+.story--chinchin {
+  background: #b2c1a2;
+  border-color: #b2c1a2;
+}
+.story--chinchin .story__metric { color: #3f3f3f; }
+.story--chinchin h3 { color: #131313; }
+.story--chinchin p { color: rgba(19, 19, 19, .75); }
+
 .testimonials {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
