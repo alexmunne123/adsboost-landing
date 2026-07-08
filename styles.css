@@ -221,10 +221,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .story--golddealers h3 { color: #b8860b; margin-top: 23px; }
 .story--golddealers p { color: rgba(184, 134, 11, .85); }
 .story--golddealers .story__logo { height: 61px; width: 120px; }
-.story--golddealers .story__header { justify-content: flex-start; }
+.story--golddealers .story__header { justify-content: space-between; }
 
 .story--dirtyparadise h3 { margin-top: 28px; }
-.story--dirtyparadise .story__header { justify-content: flex-start; }
+.story--dirtyparadise .story__header { justify-content: space-between; }
 
 .testimonials {
   display: grid;
