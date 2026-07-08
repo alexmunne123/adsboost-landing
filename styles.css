@@ -189,7 +189,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   border-color: #d74552;
 }
 .story--kevabro .story__metric { color: #ffd76b; }
-.story--kevabro h3 { color: #fff; }
+.story--kevabro h3 { color: #fff; margin-top: 44px; }
 .story--kevabro p { color: rgba(255, 255, 255, .85); }
 .story--kevabro .story__logo { height: 84px; width: 149px; }
 
