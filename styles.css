@@ -215,7 +215,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   border-color: #163a2b;
 }
 .story--juicedudes .story__metric { color: #bfe3cc; }
-.story--juicedudes h3 { color: #bfe3cc; }
+.story--juicedudes h3 { color: #bfe3cc; margin-top: 28px; }
 .story--juicedudes p { color: rgba(191, 227, 204, .8); }
 .story--juicedudes .story__logo { height: 118px; width: 86px; margin-top: -20px; }
 .story--juicedudes .story__header { justify-content: space-between; align-items: flex-start; }
