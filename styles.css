@@ -116,6 +116,17 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   text-align: center;
 }
 .hero__inner { max-width: 760px; }
+.hero__badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, .12);
+  border: 1px solid rgba(255, 255, 255, .3);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
 .hero h1 { font-size: 42px; }
 .hero p { color: #dbe6fd; font-size: 18px; }
 .hero__actions {
@@ -145,6 +156,84 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 
 .grid { display: grid; gap: 24px; }
 .grid--3 { grid-template-columns: repeat(3, 1fr); }
+.grid--4 { grid-template-columns: repeat(4, 1fr); }
+
+/* Trust bar */
+.trustbar { padding: 40px 0; background: var(--bg-alt); border-bottom: 1px solid var(--border); }
+.trustbar__label {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--gray);
+  margin: 0 0 24px;
+}
+.trustbar__logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.trustbar__chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ink);
+  border-radius: 10px;
+  padding: 12px 20px;
+  height: 56px;
+  opacity: .75;
+  transition: opacity .2s var(--ease);
+}
+.trustbar__chip:hover { opacity: 1; }
+.trustbar__chip img {
+  height: 28px;
+  width: auto;
+  max-width: 110px;
+  object-fit: contain;
+}
+
+/* Why us */
+.whyus {
+  padding: 80px 0;
+  background-color: var(--ink);
+  background-image: radial-gradient(rgba(255, 255, 255, .12) 1px, transparent 1px);
+  background-size: 22px 22px;
+  color: #fff;
+}
+.whyus__title {
+  text-align: center;
+  font-size: 30px;
+  max-width: 720px;
+  margin: 0 auto 48px;
+}
+.whyus__points { margin-bottom: 56px; }
+.whyus__point {
+  background: rgba(255, 255, 255, .06);
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 12px;
+  padding: 24px;
+}
+.whyus__number {
+  display: block;
+  color: var(--blue);
+  font-weight: 800;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.whyus__point h3 { font-size: 17px; color: #fff; }
+.whyus__point p { color: #a8b1c2; font-size: 14px; margin: 0; }
+.whyus__stat {
+  background: rgba(255, 255, 255, .06);
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 12px;
+  padding: 28px;
+  text-align: center;
+}
+.whyus__stat-number { font-size: 40px; font-weight: 800; color: var(--blue); margin-bottom: 8px; }
+.whyus__stat p { color: #a8b1c2; margin: 0; font-size: 14px; }
 
 .card {
   background: #fff;
@@ -275,6 +364,21 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 .founder__content h2 { text-align: left; font-size: 28px; }
 .founder__content p { font-size: 15px; }
+.founder__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 4px 0 20px;
+}
+.founder__badge {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
 .founder__linkedin {
   display: inline-flex;
   align-items: center;
@@ -287,6 +391,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .founder__linkedin:hover { color: var(--blue-dark); }
 
 /* Contact */
+#contacto {
+  background-image: radial-gradient(rgba(16, 24, 40, .06) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
 .contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -374,9 +482,12 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   .nav a::after { display: none; }
   .nav__cta { display: none; }
   .grid--3 { grid-template-columns: 1fr; }
+  .grid--4 { grid-template-columns: repeat(2, 1fr); }
   .testimonials { grid-template-columns: 1fr; }
   .contact { grid-template-columns: 1fr; }
   .hero h1 { font-size: 32px; }
   .founder { flex-direction: column; text-align: center; gap: 24px; }
   .founder__content h2 { text-align: center; }
+  .founder__badges { justify-content: center; }
+  .trustbar__logos { gap: 28px; }
 }
