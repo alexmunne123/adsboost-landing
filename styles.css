@@ -220,6 +220,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   max-width: 130px;
 }
 
+.story--golddealers .story__metric { color: #d4af37; }
+
 .story__logo--dirtyparadise {
   height: 44px;
   width: auto;
