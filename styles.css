@@ -177,7 +177,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   gap: 16px;
   margin-bottom: 8px;
 }
-.story__logo { height: 72px; width: auto; object-fit: contain; }
+.story__logo { height: 56px; width: 110px; object-fit: contain; object-position: center; }
 .story__metric { font-size: 32px; font-weight: 800; color: var(--blue); }
 .story h3 { font-size: 17px; }
 .story p { margin: 0; font-size: 14px; }
@@ -213,25 +213,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .story--juicedudes .story__metric { color: #bfe3cc; }
 .story--juicedudes h3 { color: #bfe3cc; }
 .story--juicedudes p { color: rgba(191, 227, 204, .8); }
-.story--juicedudes .story__logo {
-  height: 98px;
-}
-
-.story__logo--wide {
-  height: 20px;
-  width: auto;
-  max-width: 130px;
-}
 
 .story--golddealers .story__metric { color: #d4af37; }
 .story--golddealers h3 { color: #d4af37; }
 .story--golddealers p { color: rgba(212, 175, 55, .8); }
-
-.story__logo--dirtyparadise {
-  height: 44px;
-  width: auto;
-  max-width: 100%;
-}
 
 .testimonials {
   display: grid;
