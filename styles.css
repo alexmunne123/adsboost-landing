@@ -215,9 +215,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 .story__logo--wide {
-  height: 28px;
+  height: 20px;
   width: auto;
-  max-width: 100%;
+  max-width: 130px;
 }
 
 .story__logo--dirtyparadise {
