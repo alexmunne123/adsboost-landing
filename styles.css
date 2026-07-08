@@ -215,7 +215,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .story--juicedudes .story__metric { color: #bfe3cc; }
 .story--juicedudes h3 { color: #bfe3cc; }
 .story--juicedudes p { color: rgba(191, 227, 204, .8); }
-.story--juicedudes .story__logo { height: 84px; width: 165px; }
+.story--juicedudes .story__logo { height: 118px; width: 231px; margin-top: -12px; }
 
 .story--golddealers .story__metric { color: #b8860b; }
 .story--golddealers h3 { color: #b8860b; margin-top: 23px; }
