@@ -223,7 +223,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 .whyus__number {
   display: block;
-  color: var(--blue);
+  color: #fff;
   font-weight: 800;
   font-size: 14px;
   margin-bottom: 10px;
@@ -237,7 +237,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   padding: 28px;
   text-align: center;
 }
-.whyus__stat-number { font-size: 40px; font-weight: 800; color: var(--blue); margin-bottom: 8px; }
+.whyus__stat-number { font-size: 40px; font-weight: 800; color: #fff; margin-bottom: 8px; }
 .whyus__stat p { color: #a8b1c2; margin: 0; font-size: 14px; }
 
 .card {
