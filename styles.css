@@ -188,6 +188,11 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   transition: opacity .2s var(--ease);
 }
 .trustbar__chip:hover { opacity: 1; }
+.trustbar__chip--kevabro { background: #d74552; }
+.trustbar__chip--chinchin { background: #b2c1a2; }
+.trustbar__chip--juicedudes { background: #163a2b; }
+.trustbar__chip--golddealers { background: #000; }
+.trustbar__chip--dirtyparadise { background: #000; }
 .trustbar__chip img {
   height: 28px;
   width: auto;
