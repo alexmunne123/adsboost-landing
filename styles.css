@@ -206,6 +206,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .story--dark h3 { color: #fff; }
 .story--dark p { color: rgba(255, 255, 255, .75); }
 
+.story--juicedudes {
+  background: #163a2b;
+  border-color: #163a2b;
+}
 .story--juicedudes .story__logo {
   height: 98px;
   border-radius: 8px;
