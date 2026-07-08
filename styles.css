@@ -214,9 +214,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .story--juicedudes h3 { color: #bfe3cc; }
 .story--juicedudes p { color: rgba(191, 227, 204, .8); }
 
-.story--golddealers .story__metric { color: #d4af37; }
-.story--golddealers h3 { color: #d4af37; }
-.story--golddealers p { color: rgba(212, 175, 55, .8); }
+.story--golddealers .story__metric { color: #b8860b; }
+.story--golddealers h3 { color: #b8860b; }
+.story--golddealers p { color: rgba(184, 134, 11, .85); }
 
 .testimonials {
   display: grid;
