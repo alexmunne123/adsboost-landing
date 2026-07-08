@@ -212,7 +212,6 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 .story--juicedudes .story__logo {
   height: 98px;
-  border-radius: 8px;
 }
 
 .story__logo--wide {
