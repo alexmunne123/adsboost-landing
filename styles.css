@@ -339,6 +339,62 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .testimonials p { color: var(--ink); font-style: italic; }
 .testimonials cite { font-size: 14px; color: var(--gray); font-style: normal; }
 
+/* About */
+.about__intro {
+  max-width: 720px;
+  margin: 0 auto 56px;
+  text-align: center;
+}
+.about__intro p { font-size: 16px; }
+
+.about__timeline {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 64px;
+  position: relative;
+}
+.about__step {
+  position: relative;
+  padding-top: 28px;
+  text-align: center;
+}
+.about__step::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--border);
+}
+.about__step:first-child::before { left: 50%; }
+.about__step:last-child::before { right: 50%; }
+.about__dot {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--blue);
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 2px var(--blue);
+}
+.about__step h3 { font-size: 16px; margin-bottom: 4px; }
+.about__step p { font-size: 13px; margin: 0; }
+
+.about__values { margin-bottom: 0; }
+.about__value {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+}
+.about__value h3 { font-size: 17px; }
+.about__value p { font-size: 14px; margin: 0; }
+
 /* Founder */
 .founder {
   display: flex;
@@ -488,6 +544,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   .nav__cta { display: none; }
   .grid--3 { grid-template-columns: 1fr; }
   .grid--4 { grid-template-columns: repeat(2, 1fr); }
+  .about__timeline { grid-template-columns: 1fr; gap: 32px; }
+  .about__step::before { display: none; }
   .testimonials { grid-template-columns: 1fr; }
   .contact { grid-template-columns: 1fr; }
   .hero h1 { font-size: 32px; }
