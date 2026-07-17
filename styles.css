@@ -203,7 +203,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 /* Why us */
 .whyus {
   padding: 80px 0;
-  background-color: var(--ink);
+  background-color: var(--blue);
   background-image: radial-gradient(rgba(255, 255, 255, .12) 1px, transparent 1px);
   background-size: 22px 22px;
   color: #fff;
@@ -214,7 +214,6 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   max-width: 720px;
   margin: 0 auto 48px;
 }
-.whyus__title-accent { color: var(--blue); }
 .whyus__points { margin-bottom: 56px; }
 .whyus__point {
   background: rgba(255, 255, 255, .06);
