@@ -108,6 +108,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 /* Hero */
 .hero {
   background:
+    radial-gradient(rgba(255, 255, 255, .12) 1px, transparent 1px) 0 0 / 22px 22px,
     radial-gradient(circle at 15% 20%, rgba(255,255,255,.08) 0%, transparent 40%),
     radial-gradient(circle at 85% 80%, rgba(255,255,255,.08) 0%, transparent 40%),
     linear-gradient(135deg, var(--blue) 0%, var(--blue-dark) 100%);
