@@ -214,6 +214,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   max-width: 720px;
   margin: 0 auto 48px;
 }
+.whyus__title-accent { color: var(--blue); }
 .whyus__points { margin-bottom: 56px; }
 .whyus__point {
   background: rgba(255, 255, 255, .06);
